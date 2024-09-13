@@ -1,6 +1,6 @@
 # vertPerHour
 
-## 7 different datafields that calculate cumulative ascent over the following timeframes:
+### 7 different datafields that calculate cumulative ascent over the following timeframes:
 - the last 30 seconds
 - the last 1 minute
 - the last 5 minute
