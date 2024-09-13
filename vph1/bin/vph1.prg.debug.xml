@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/gussie/Documents/garmin/datafields/vph1/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="1" lineNum="7" parent="globals/vertPerHourView" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="1" lineNum="12" parent="globals/vertPerHourView" pc="268435471" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourApp.mc" id="2" lineNum="5" parent="globals/vertPerHourApp" pc="268435489" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourApp.mc" id="3" lineNum="31" parent="globals" pc="268435501" symbol="getApp"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourApp.mc" id="3" lineNum="32" parent="globals" pc="268435511" symbol="getApp"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/bin/gen/006-B3992-00/source/Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435522" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="5" lineNum="41" parent="globals/vertPerHourView" pc="268435542" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="5" lineNum="45" parent="globals/vertPerHourView" pc="268435545" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="5" lineNum="48" parent="globals/vertPerHourView" pc="268435557" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="5" lineNum="49" parent="globals/vertPerHourView" pc="268435567" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="5" lineNum="51" parent="globals/vertPerHourView" pc="268435585" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="5" lineNum="54" parent="globals/vertPerHourView" pc="268435611" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="5" lineNum="59" parent="globals/vertPerHourView" pc="268435629" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="5" lineNum="60" parent="globals/vertPerHourView" pc="268435636" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="5" lineNum="61" parent="globals/vertPerHourView" pc="268435639" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="5" lineNum="64" parent="globals/vertPerHourView" pc="268435645" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="5" lineNum="65" parent="globals/vertPerHourView" pc="268435663" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="5" lineNum="66" parent="globals/vertPerHourView" pc="268435679" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="5" lineNum="70" parent="globals/vertPerHourView" pc="268435701" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="5" lineNum="71" parent="globals/vertPerHourView" pc="268435722" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="5" lineNum="73" parent="globals/vertPerHourView" pc="268435741" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="5" lineNum="75" parent="globals/vertPerHourView" pc="268435775" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="5" lineNum="78" parent="globals/vertPerHourView" pc="268435788" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="6" lineNum="16" parent="globals/vertPerHourView" pc="268435796" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="6" lineNum="17" parent="globals/vertPerHourView" pc="268435798" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="6" lineNum="19" parent="globals/vertPerHourView" pc="268435810" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="6" lineNum="20" parent="globals/vertPerHourView" pc="268435819" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="6" lineNum="21" parent="globals/vertPerHourView" pc="268435840" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="6" lineNum="23" parent="globals/vertPerHourView" pc="268435853" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="6" lineNum="24" parent="globals/vertPerHourView" pc="268435864" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="6" lineNum="26" parent="globals/vertPerHourView" pc="268435916" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="6" lineNum="29" parent="globals/vertPerHourView" pc="268435965" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="6" lineNum="30" parent="globals/vertPerHourView" pc="268435980" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourView.mc" id="6" lineNum="32" parent="globals/vertPerHourView" pc="268435992" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourApp.mc" id="7" lineNum="12" parent="globals/vertPerHourApp" pc="268436005" symbol="onStart"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourApp.mc" id="8" lineNum="24" parent="globals/vertPerHourApp" pc="268436008" symbol="getInitialView"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourApp.mc" id="8" lineNum="26" parent="globals/vertPerHourApp" pc="268436010" symbol="getInitialView"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourApp.mc" id="9" lineNum="7" parent="globals/vertPerHourApp" pc="268436042" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourApp.mc" id="9" lineNum="8" parent="globals/vertPerHourApp" pc="268436044" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/source/vertPerHourApp.mc" id="10" lineNum="16" parent="globals/vertPerHourApp" pc="268436057" symbol="onStop"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/vph1/bin/gen/006-B3992-00/source/Rez.mcgen" id="11" lineNum="638" parent="globals/vertPerBarrel/Rez" pc="268436060" symbol="&lt;init&gt;"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="12" lineNum="9" parent="globals/vertPerBarrel/barrelVertView" pc="268436085" symbol="&lt;init&gt;"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="12" lineNum="14" parent="globals/vertPerBarrel/barrelVertView" pc="268436096" symbol="&lt;init&gt;"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="13" lineNum="43" parent="globals/vertPerBarrel/barrelVertView" pc="268436114" symbol="compute"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="13" lineNum="47" parent="globals/vertPerBarrel/barrelVertView" pc="268436117" symbol="compute"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="13" lineNum="50" parent="globals/vertPerBarrel/barrelVertView" pc="268436129" symbol="compute"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="13" lineNum="51" parent="globals/vertPerBarrel/barrelVertView" pc="268436139" symbol="compute"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="13" lineNum="53" parent="globals/vertPerBarrel/barrelVertView" pc="268436157" symbol="compute"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="13" lineNum="59" parent="globals/vertPerBarrel/barrelVertView" pc="268436183" symbol="compute"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="13" lineNum="60" parent="globals/vertPerBarrel/barrelVertView" pc="268436190" symbol="compute"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="13" lineNum="61" parent="globals/vertPerBarrel/barrelVertView" pc="268436193" symbol="compute"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="13" lineNum="64" parent="globals/vertPerBarrel/barrelVertView" pc="268436199" symbol="compute"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="13" lineNum="65" parent="globals/vertPerBarrel/barrelVertView" pc="268436217" symbol="compute"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="13" lineNum="66" parent="globals/vertPerBarrel/barrelVertView" pc="268436233" symbol="compute"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="13" lineNum="70" parent="globals/vertPerBarrel/barrelVertView" pc="268436255" symbol="compute"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="13" lineNum="71" parent="globals/vertPerBarrel/barrelVertView" pc="268436276" symbol="compute"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="13" lineNum="73" parent="globals/vertPerBarrel/barrelVertView" pc="268436295" symbol="compute"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="13" lineNum="75" parent="globals/vertPerBarrel/barrelVertView" pc="268436329" symbol="compute"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="13" lineNum="78" parent="globals/vertPerBarrel/barrelVertView" pc="268436342" symbol="compute"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="14" lineNum="18" parent="globals/vertPerBarrel/barrelVertView" pc="268436350" symbol="initialize"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="14" lineNum="19" parent="globals/vertPerBarrel/barrelVertView" pc="268436352" symbol="initialize"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="14" lineNum="21" parent="globals/vertPerBarrel/barrelVertView" pc="268436364" symbol="initialize"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="14" lineNum="22" parent="globals/vertPerBarrel/barrelVertView" pc="268436373" symbol="initialize"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="14" lineNum="23" parent="globals/vertPerBarrel/barrelVertView" pc="268436394" symbol="initialize"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="14" lineNum="25" parent="globals/vertPerBarrel/barrelVertView" pc="268436407" symbol="initialize"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="14" lineNum="26" parent="globals/vertPerBarrel/barrelVertView" pc="268436418" symbol="initialize"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="14" lineNum="28" parent="globals/vertPerBarrel/barrelVertView" pc="268436470" symbol="initialize"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="14" lineNum="31" parent="globals/vertPerBarrel/barrelVertView" pc="268436519" symbol="initialize"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="14" lineNum="32" parent="globals/vertPerBarrel/barrelVertView" pc="268436534" symbol="initialize"/>
+        <entry filename="/private/var/folders/zq/pz8yx5qj1934wf98f85n54rh0000gn/T/vertPerBarrel-0.0.0.barrel15995039094630156891/content/vertPerBarrel.mc" id="14" lineNum="34" parent="globals/vertPerBarrel/barrelVertView" pc="268436546" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="5" module="true" symbol="globals/vertPerBarrel"/>
+        <entry id="9" object="true" symbol="vertPerHourView"/>
+        <entry id="6" module="true" symbol="globals/vertPerBarrel/Rez"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="17" symbol="AppName"/>
+        <entry field="true" id="12" symbol="frame_mins"/>
+        <entry id="4" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="15" object="true" symbol="barrelVertView"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="11" symbol="frame_ascent_array"/>
+        <entry field="true" id="10" symbol="device_settings"/>
+        <entry field="true" id="14" symbol="meters_or_feet"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="16" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8" object="true" symbol="vertPerHourApp"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="13" symbol="frame_secs"/>
+        <entry id="7" module="true" symbol="vertPerBarrel"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435795" name="info" stackId="1" startPc="268435542"/>
+        <entry endPc="268435795" name="t" stackId="2" startPc="268435545"/>
+        <entry endPc="268435795" name="frame_vert" stackId="3" startPc="268435545"/>
+        <entry endPc="268435795" name="frame_vph" stackId="4" startPc="268435545"/>
+        <entry arg="true" endPc="268436004" name="frame_size_minutes" stackId="1" startPc="268435796"/>
+        <entry arg="true" endPc="268436349" name="info" stackId="1" startPc="268436114"/>
+        <entry endPc="268436349" name="t" stackId="2" startPc="268436117"/>
+        <entry endPc="268436349" name="frame_vert" stackId="3" startPc="268436117"/>
+        <entry endPc="268436349" name="frame_vph" stackId="4" startPc="268436117"/>
+        <entry arg="true" endPc="268436558" name="frame_size_minutes" stackId="1" startPc="268436350"/>
+    </localVars>
+    <deviceInfo deviceVersion="3ec88d10900803ee2943328b35e298d1bb9907df" partNumber="006-B3992-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/vertPerHourView" offset="143" parentId="globals" symbolId="vertPerHourView" type="class"/>
+        <dataEntry label="globals/vertPerHourApp" offset="241" parentId="globals" symbolId="vertPerHourApp" type="class"/>
+        <dataEntry label="globals/vertPerBarrel" offset="312" parentId="globals" symbolId="vertPerBarrel" type="module"/>
+        <dataEntry label="globals/Rez" offset="356" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/vertPerBarrel/Rez" offset="400" parentId="vertPerBarrel" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/vertPerBarrel/barrelVertView" offset="426" parentId="vertPerBarrel" symbolId="barrelVertView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="524" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="559" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435488" name="&lt;init&gt;" parent="vertPerHourView" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435500" name="&lt;init&gt;" parent="vertPerHourApp" startPc="268435489">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435521" name="getApp" startPc="268435501">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="vertPerBarrel">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435541" name="&lt;init&gt;" parent="Rez" startPc="268435522">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435795" name="compute" parent="vertPerHourView" startPc="268435542">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436004" name="initialize" parent="vertPerHourView" startPc="268435796">
+            <param id="frame_size_minutes"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436007" name="onStart" parent="vertPerHourApp" startPc="268436005">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436041" name="getInitialView" parent="vertPerHourApp" startPc="268436008">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436056" name="initialize" parent="vertPerHourApp" startPc="268436042">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436059" name="onStop" parent="vertPerHourApp" startPc="268436057">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436084" name="&lt;init&gt;" parent="Rez" startPc="268436060">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436113" name="&lt;init&gt;" parent="barrelVertView" startPc="268436085">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436349" name="compute" parent="barrelVertView" startPc="268436114">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436558" name="initialize" parent="barrelVertView" startPc="268436350">
+            <param id="frame_size_minutes"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

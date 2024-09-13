@@ -1,0 +1,108 @@
+[ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 1; ]
+module vertPerBarrel {
+    [ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 1; ]
+    <init> {
+    }
+    [ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 3; ]
+    import Toybox.Activity;
+    [ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 4; ]
+    import Toybox.Lang;
+    [ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 5; ]
+    import Toybox.Time;
+    [ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 6; ]
+    import Toybox.WatchUi;
+    [ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 7; ]
+    import Toybox.System;
+    [ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 9; ]
+    class barrelVertView extends WatchUi.SimpleDataField{
+        [ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 9; ]
+        <init> {
+        }
+        [ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 9; ]
+        static
+        <init> {
+        }
+        [ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 11; @position = 12; ]
+        var cum_ascent;
+        [ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 11; @position = 24; ]
+        var cum_time;
+        [ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 13; @position = 12; ]
+        var frame_mins;
+        [ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 13; @position = 24; ]
+        var frame_secs;
+        [ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 15; @position = 12; ]
+        var frame_ascent_array;
+        [ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 18; ]
+        function initialize(frame_size_minutes) as Void {
+_Users_gussie_Documents_garmin_datafields_vertPerBarrel_vertPerBarrel_mc_18_48_25_8_start:
+[ "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc" 19 12 ]
+            %tmp.2 = getv ? :SimpleDataField;
+            %tmp.3 = getv function %tmp.2 :initialize;
+            invoke %tmp.2 %tmp.3();
+[ "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc" 20 12 ]
+            %tmp.4 = "Vert (ft) Per Hour";
+            putv self :label %tmp.4;
+[ "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc" 22 12 ]
+            %tmp.6 = lgetv %frame_size_minutes;
+            putv self :frame_mins %tmp.6;
+[ "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc" 23 12 ]
+            %tmp.8 = getv ? :frame_mins;
+            %tmp.9 = 60;
+            %tmp.10 = mul %tmp.8 %tmp.9;
+            putv self :frame_secs %tmp.10;
+[ "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc" 24 12 ]
+            %tmp.13 = getv ? :frame_secs;
+            %tmp.11 = newa Array<Float> %tmp.13;
+            putv self :frame_ascent_array %tmp.11;
+_Users_gussie_Documents_garmin_datafields_vertPerBarrel_vertPerBarrel_mc_18_48_25_8_stop:
+        }
+        [ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 31; ]
+        function compute(info as Activity.Info) as Numeric or Duration or String or Null {
+_Users_gussie_Documents_garmin_datafields_vertPerBarrel_vertPerBarrel_mc_31_89_62_8_start:
+[ "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc" 35 12 ]
+            [ "_Users_gussie_Documents_garmin_datafields_vertPerBarrel_vertPerBarrel_mc_31_89_62_8_start" "_Users_gussie_Documents_garmin_datafields_vertPerBarrel_vertPerBarrel_mc_31_89_62_8_stop" ]
+            %t.1 = local;
+            %tmp.1 = lgetv %info;
+            %tmp.2 = getv %tmp.1 :elapsedTime;
+            %tmp.3 = 1000;
+            %tmp.4 = div %tmp.2 %tmp.3;
+            lputv %t.1 %tmp.4;
+[ "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc" 38 12 ]
+            %tmp.5 = getv self :frame_ascent_array;
+            %tmp.6 = lgetv %info;
+            %tmp.7 = getv %tmp.6 :totalAscent;
+            %tmp.9 = lgetv %t.1;
+            %tmp.11 = getv ? :frame_secs;
+            %tmp.12 = mod %tmp.9 %tmp.11;
+            aputv %tmp.5 %tmp.12 %tmp.7;
+[ "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc" 41 12 ]
+            [ "_Users_gussie_Documents_garmin_datafields_vertPerBarrel_vertPerBarrel_mc_31_89_62_8_start" "_Users_gussie_Documents_garmin_datafields_vertPerBarrel_vertPerBarrel_mc_31_89_62_8_stop" ]
+            %frame_vert.2 = local;
+            %tmp.14 = getv ? :frame_ascent_array;
+            %tmp.16 = lgetv %t.1;
+            %tmp.18 = getv ? :frame_secs;
+            %tmp.19 = mod %tmp.16 %tmp.18;
+            %tmp.20 = agetv %tmp.14 %tmp.19;
+            %tmp.22 = getv ? :frame_ascent_array;
+            %tmp.24 = lgetv %t.1;
+            %tmp.25 = 1;
+            %tmp.26 = add %tmp.24 %tmp.25;
+            %tmp.28 = getv ? :frame_secs;
+            %tmp.29 = mod %tmp.26 %tmp.28;
+            %tmp.30 = agetv %tmp.22 %tmp.29;
+            %tmp.31 = sub %tmp.20 %tmp.30;
+            lputv %frame_vert.2 %tmp.31;
+[ "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc" 44 12 ]
+            %tmp.33 = lgetv %frame_vert.2;
+            %tmp.34 = 60;
+            %tmp.35 = mul %tmp.33 %tmp.34;
+            %tmp.37 = getv ? :frame_mins;
+            %tmp.38 = div %tmp.35 %tmp.37;
+            ret %tmp.38;
+_Users_gussie_Documents_garmin_datafields_vertPerBarrel_vertPerBarrel_mc_31_89_62_8_stop:
+        }
+    }
+}
+[ @file = "/Users/gussie/Documents/garmin/datafields/vertPerBarrel/vertPerBarrel.mc"; @line = 1; ]
+<init> {
+}

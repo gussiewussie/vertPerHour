@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourView.mc" id="1" lineNum="7" parent="globals/vertPerHourView" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourView.mc" id="1" lineNum="9" parent="globals/vertPerHourView" pc="268435471" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourApp.mc" id="2" lineNum="5" parent="globals/vertPerHourApp" pc="268435489" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourApp.mc" id="3" lineNum="30" parent="globals" pc="268435501" symbol="getApp"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourApp.mc" id="3" lineNum="31" parent="globals" pc="268435511" symbol="getApp"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/bin/gen/006-B3992-00/source/Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435522" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourView.mc" id="5" lineNum="30" parent="globals/vertPerHourView" pc="268435542" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourView.mc" id="5" lineNum="34" parent="globals/vertPerHourView" pc="268435545" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourView.mc" id="5" lineNum="38" parent="globals/vertPerHourView" pc="268435571" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourView.mc" id="5" lineNum="39" parent="globals/vertPerHourView" pc="268435581" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourView.mc" id="5" lineNum="41" parent="globals/vertPerHourView" pc="268435587" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourView.mc" id="5" lineNum="45" parent="globals/vertPerHourView" pc="268435601" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourView.mc" id="5" lineNum="46" parent="globals/vertPerHourView" pc="268435608" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourView.mc" id="5" lineNum="48" parent="globals/vertPerHourView" pc="268435613" symbol="compute"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourView.mc" id="6" lineNum="13" parent="globals/vertPerHourView" pc="268435626" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourView.mc" id="6" lineNum="14" parent="globals/vertPerHourView" pc="268435628" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourView.mc" id="6" lineNum="16" parent="globals/vertPerHourView" pc="268435640" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourView.mc" id="6" lineNum="18" parent="globals/vertPerHourView" pc="268435652" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourView.mc" id="6" lineNum="19" parent="globals/vertPerHourView" pc="268435667" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourView.mc" id="6" lineNum="21" parent="globals/vertPerHourView" pc="268435679" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourApp.mc" id="7" lineNum="12" parent="globals/vertPerHourApp" pc="268435692" symbol="onStart"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourApp.mc" id="8" lineNum="24" parent="globals/vertPerHourApp" pc="268435695" symbol="getInitialView"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourApp.mc" id="8" lineNum="25" parent="globals/vertPerHourApp" pc="268435697" symbol="getInitialView"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourApp.mc" id="9" lineNum="7" parent="globals/vertPerHourApp" pc="268435727" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourApp.mc" id="9" lineNum="8" parent="globals/vertPerHourApp" pc="268435729" symbol="initialize"/>
+        <entry filename="/Users/gussie/Documents/garmin/datafields/Vert Per Hour/vph_infinity/source/vertPerHourApp.mc" id="10" lineNum="16" parent="globals/vertPerHourApp" pc="268435742" symbol="onStop"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="6" object="true" symbol="vertPerHourView"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="10" symbol="AppName"/>
+        <entry id="4" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="7" symbol="device_settings"/>
+        <entry field="true" id="8" symbol="meters_or_feet"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="9" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="5" object="true" symbol="vertPerHourApp"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435625" name="info" stackId="1" startPc="268435542"/>
+        <entry endPc="268435624" name="t" stackId="2" startPc="268435545"/>
+        <entry endPc="268435624" name="ascent" stackId="3" startPc="268435545"/>
+    </localVars>
+    <deviceInfo deviceVersion="3ec88d10900803ee2943328b35e298d1bb9907df" partNumber="006-B3992-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="49" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/vertPerHourView" offset="116" parentId="globals" symbolId="vertPerHourView" type="class"/>
+        <dataEntry label="globals/vertPerHourApp" offset="187" parentId="globals" symbolId="vertPerHourApp" type="class"/>
+        <dataEntry label="globals/Rez" offset="258" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="302" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="337" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435488" name="&lt;init&gt;" parent="vertPerHourView" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435500" name="&lt;init&gt;" parent="vertPerHourApp" startPc="268435489">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435521" name="getApp" startPc="268435501">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435541" name="&lt;init&gt;" parent="Rez" startPc="268435522">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435625" name="compute" parent="vertPerHourView" startPc="268435542">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435691" name="initialize" parent="vertPerHourView" startPc="268435626">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435694" name="onStart" parent="vertPerHourApp" startPc="268435692">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435726" name="getInitialView" parent="vertPerHourApp" startPc="268435695">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435741" name="initialize" parent="vertPerHourApp" startPc="268435727">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435744" name="onStop" parent="vertPerHourApp" startPc="268435742">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

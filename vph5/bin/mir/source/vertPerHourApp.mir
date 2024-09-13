@@ -1,0 +1,59 @@
+[ @file = "/Users/gussie/Documents/garmin/datafields/vph5/source/vertPerHourApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/Users/gussie/Documents/garmin/datafields/vph5/source/vertPerHourApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/Users/gussie/Documents/garmin/datafields/vph5/source/vertPerHourApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "/Users/gussie/Documents/garmin/datafields/vph5/source/vertPerHourApp.mc"; @line = 5; ]
+class vertPerHourApp extends Application.AppBase{
+    [ @file = "/Users/gussie/Documents/garmin/datafields/vph5/source/vertPerHourApp.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/Users/gussie/Documents/garmin/datafields/vph5/source/vertPerHourApp.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/gussie/Documents/garmin/datafields/vph5/source/vertPerHourApp.mc"; @line = 7; ]
+    function initialize() as Void {
+_Users_gussie_Documents_garmin_datafields_vph5_source_vertPerHourApp_mc_7_26_9_4_start:
+[ "/Users/gussie/Documents/garmin/datafields/vph5/source/vertPerHourApp.mc" 8 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_gussie_Documents_garmin_datafields_vph5_source_vertPerHourApp_mc_7_26_9_4_stop:
+    }
+    [ @file = "/Users/gussie/Documents/garmin/datafields/vph5/source/vertPerHourApp.mc"; @line = 12; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/gussie/Documents/garmin/datafields/vph5/source/vertPerHourApp.mc"; @line = 16; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/gussie/Documents/garmin/datafields/vph5/source/vertPerHourApp.mc"; @line = 24; ]
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+_Users_gussie_Documents_garmin_datafields_vph5_source_vertPerHourApp_mc_24_68_27_4_start:
+[ "/Users/gussie/Documents/garmin/datafields/vph5/source/vertPerHourApp.mc" 26 8 ]
+        %tmp.1 = newa 1;
+        %tmp.5 = getv ? :vertPerBarrel;
+        %tmp.6 = getv function ? %tmp.5 :barrelVertView;
+        %tmp.7 = 5;
+        %tmp.2 = newc %tmp.6 (%tmp.7);
+        %tmp.8 = dup %tmp.1;
+        %tmp.9 = aputv %tmp.8 0 %tmp.2;
+        ret %tmp.9;
+_Users_gussie_Documents_garmin_datafields_vph5_source_vertPerHourApp_mc_24_68_27_4_stop:
+    }
+}
+[ @file = "/Users/gussie/Documents/garmin/datafields/vph5/source/vertPerHourApp.mc"; @line = 31; ]
+function getApp() as vertPerHourApp {
+_Users_gussie_Documents_garmin_datafields_vph5_source_vertPerHourApp_mc_31_36_33_0_start:
+[ "/Users/gussie/Documents/garmin/datafields/vph5/source/vertPerHourApp.mc" 32 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 vertPerHourApp;
+    ret %tmp.4;
+_Users_gussie_Documents_garmin_datafields_vph5_source_vertPerHourApp_mc_31_36_33_0_stop:
+}
+[ @file = "/Users/gussie/Documents/garmin/datafields/vph5/source/vertPerHourApp.mc"; @line = 1; ]
+<init> {
+}
