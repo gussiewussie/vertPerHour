@@ -10,4 +10,4 @@
 - the last 60 minute
 - the entirety of the current activity
 
-Uses the length of the activity of desired timeframe for calculation, whichever is shorter.
+Uses the length of the activity or desired timeframe for calculation, whichever is shorter.
